@@ -101,7 +101,11 @@ const Home = () => {
         </div>
 
         <div className="img-wrapper">
+<<<<<<< HEAD
         <img src="/pravin-portfolio/public/assets/home.png" alt=""/>   
+=======
+        <img src="http://localhost:5173/pravin-portfolio/public/assets/home.png" alt=""/>   
+>>>>>>> 4b79c82147e15b5554a369aee42d6dae217b8d56
         </div>
       </div>
     </div>
