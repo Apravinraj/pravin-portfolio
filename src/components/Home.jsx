@@ -101,7 +101,7 @@ const Home = () => {
         </div>
 
         <div className="img-wrapper">
-          <img src="/pravin-portfolio/public/assets/home.png" alt="Profile" />
+        <img src="https://localhost:5173/pravin-portfolio/public/assets/home.png" alt=""/>   
         </div>
       </div>
     </div>
