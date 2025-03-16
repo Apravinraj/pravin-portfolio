@@ -371,7 +371,7 @@ header {
     border-radius: 10px;
 }
 
-.cards > div a{
+/* .cards > div a{
     background-color: var(--base-varient);
     padding:20px ;
     margin: 10px;
@@ -379,6 +379,30 @@ header {
     width: 22.5%;
     text-decoration: none;
     color: var(--sec-text);
+} */
+
+
+.cards > div a {
+  background-color: var(--base-varient);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 22.5%;
+  text-decoration: none;
+  color: var(--sec-text);
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.cards > div a:hover {
+  
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 5px 5px var(--sec-text);
+}
+
+.cards > div a:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .cards > div h3{
