@@ -13,19 +13,29 @@
 
     
 }
+body{
+  
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 0px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  
+    background-color: var(--base-background);
+}
+
 .darkmode
 {
     --base-color:#ffffff;
     --base-varient:#7A1CAC;
     --text-color:rgb(255, 255, 255);
     --base-background:#070F2B;
-    --sec-text:black;
+    --sec-text:white;
 
 }
 
-body{
-    background-color: var(--base-background);
-}
+
 header{
     margin: 0 5%;
     background-color: var(--base-background);
@@ -408,7 +418,7 @@ form input,
   
   form input::placeholder, 
   form textarea::placeholder {
-    color: var(--text-color);
+    color: var(--sec-text);
   } 
   
    textarea {
@@ -418,7 +428,7 @@ form input,
 
 
 
-form .send-btn {
+/* form .send-btn {
     background: var(--base-varient);
     color: var(--sec-text);
     box-shadow: 4px 4px var(--base-background);
@@ -431,13 +441,13 @@ form .send-btn {
     letter-spacing: 2px;
     transition: ease all 0.35s;
     margin-top: 5px;
-  }
+  } */
   
-  form .send-btn:hover {
+  /* form .send-btn:hover {
     background: var(--sec-text);
     color: var(--base-varient);
     box-shadow: 4px 4px var(--base-varient);
-  }
+  } */
 
 
 .skills-container{
@@ -528,5 +538,31 @@ form .send-btn {
     .skills-container {
       grid-template-columns: repeat(1, 1fr); /* ✅ 1 item per row on mobile */
     }
+  }
+  
+
+
+
+  input[type="submit"] {
+    background-color: var(--base-varient);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: var(--text-color);
+    color: var(--base-background);
+    transform: translateY(-3px);
+    box-shadow: 0 2px 16px var(--text-color);
+  }
+  
+  input[type="submit"]:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px  var(--base-varient);
   }
   

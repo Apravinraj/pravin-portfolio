@@ -30,7 +30,8 @@ const Projects = () => {
 
                     <a href="https://shopping-cartbot.netlify.app/" target="_blank">
                         <div>
-                        <img src={photo4} alt=""/>   
+                        <img src={photo4} alt=""/>
+                        <h3>SHOPPING CART BOT</h3>
                         <p>A shopping cart website allows users to create and manage a grocery list.</p>
                         </div>
                     </a>
@@ -39,13 +40,14 @@ const Projects = () => {
                         <div>
                         <img src={photo5} alt=""/>   
                         <h3>BLOOD DONATION NOTIFICATION SYSTEM</h3>
-                            <p>A system that alerts registered donors about urgent blood donation needs.</p>
+                        <p>A system that alerts registered donors about urgent blood donation needs.</p>
                         </div>
                     </a>
 
                     <a href="https://simple-e-learning.netlify.app/" target="_blank">
                         <div>
                         <img src={photo6} alt=""/>   
+                        <h3>E-LEARNING WEBSITE</h3>
                         <p>An online learning platform with courses and tutorials.</p>
                         </div>
                     </a>
