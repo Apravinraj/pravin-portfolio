@@ -12,7 +12,7 @@ const About = () => {
             </div>
 
             <div>
-                <img src="https://localhost:5173/pravin-portfolio/public/assets/about.png" alt=""/>   
+                <img src="/pravin-portfolio/public/assets/about.png" alt=""/>   
             </div>
       </div>
 </div>
